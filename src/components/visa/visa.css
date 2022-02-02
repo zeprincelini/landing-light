@@ -65,3 +65,17 @@
   color: #fff;
   width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+  .visa-payment-section {
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .form-top,
+  .form-bottom {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
