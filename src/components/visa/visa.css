@@ -1,0 +1,67 @@
+.visa-payment-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1;
+}
+
+.card img {
+  max-width: 100%;
+  width: 450px;
+}
+
+.form-section {
+  flex: 1;
+}
+
+.input-container {
+  flex: 1;
+}
+
+.label {
+  margin-bottom: 13px;
+  text-transform: capitalize;
+  color: #292929;
+}
+
+.input {
+  width: 90%;
+  border-radius: 4px;
+  border: 1px solid #d8dade;
+  background-color: #eff0f2;
+  padding: 15px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-top,
+.form-bottom {
+  display: flex;
+  gap: 60px;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn button {
+  background-color: #3f67e9;
+  padding: 18px;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  width: 100%;
+}

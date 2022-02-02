@@ -1,14 +1,15 @@
+.payment-section {
+  margin-top: 10px;
+  padding: 0px 50px;
+}
+
 .line {
   border: 1px solid #f2f2f3;
 }
 
-.payment-section {
-  margin-top: 10px;
-}
-
 .payment-header {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -27,5 +28,60 @@
 .payment-methods {
   display: flex;
   align-items: center;
+  gap: 50px;
+}
+
+.payment-methods img {
+  width: 70px;
+  height: 70px;
+}
+
+.dot {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #f1f2f3;
+}
+
+.paypal {
+  display: flex;
+  align-items: center;
   gap: 20px;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #222222;
+}
+
+.total span {
+  color: #d8dbe0;
+}
+
+.total-price {
+  font-size: 18px;
+}
+
+.total-payment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total-payment button {
+  background-color: #3f67e9;
+  padding: 18px;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.total-payment p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #222222;
 }

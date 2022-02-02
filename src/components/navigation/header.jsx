@@ -15,7 +15,11 @@ const Header = () => {
           Bookings
         </Link>
         <div>
-          <img src="#" alt="" />
+          <img
+            src="https://picsum.photos/200/300"
+            alt="user"
+            className="user-img"
+          />
         </div>
       </ul>
     </div>
