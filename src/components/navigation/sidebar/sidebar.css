@@ -1,5 +1,5 @@
 .sidenav-container {
-  width: 40%;
+  width: 60%;
   background-color: #fff;
   position: fixed;
   display: none;
@@ -10,8 +10,10 @@
 
 .menu-side {
   width: 40px;
+  height: 50px;
   cursor: pointer;
   text-align: right;
+  fill: #3f67e9;
 }
 
 /* .sidenav-toggle {
@@ -22,6 +24,8 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+  margin-top: 20px;
+  padding-left: 10px;
 }
 
 .side-link {

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ReactComponent as MenuSvg } from "../../../assets/menu.svg";
+import { ReactComponent as CloseSvg } from "../../../assets/close.svg";
 import "./sidebar.css";
 
 const Sidebar = ({ toggle, closeSidebar }) => {
@@ -9,7 +9,7 @@ const Sidebar = ({ toggle, closeSidebar }) => {
       style={{ transform: toggle ? "translateX(0px)" : "translateX(-600px)" }}
     >
       <div style={{ display: "flex", justifyContent: "right" }}>
-        <MenuSvg className="menu-side" onClick={() => closeSidebar()} />
+        <CloseSvg className="menu-side" onClick={() => closeSidebar()} />
       </div>
       <div className="sidenav-links">
         <div>
